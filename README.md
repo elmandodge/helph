@@ -33,3 +33,7 @@ information)
 - Have a drug detail screen
 - Have a pharmacy detail screen
 - Have a Map screen which helps user navigate to a particular pharmacy
+
+## Application Architecture
+- Clean architecture will be used for this project
+
