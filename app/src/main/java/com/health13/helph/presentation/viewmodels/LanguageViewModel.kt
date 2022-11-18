@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.core.content.ContextCompat.startActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.health13.helph.presentation.activities.intro_screens.OnboardingFinishActivity
 import java.util.*
 
 class LanguageViewModel:  ViewModel(){
@@ -12,8 +11,6 @@ class LanguageViewModel:  ViewModel(){
 
 
 }
-
-
 
 
 class LanguageViewModelFactory : ViewModelProvider.Factory {
