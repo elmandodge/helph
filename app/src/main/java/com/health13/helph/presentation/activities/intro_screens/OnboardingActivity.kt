@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayoutMediator
 import com.health13.helph.R
-import com.health13.helph.databinding.ActivityOnboardingExample1Binding
+import com.health13.helph.databinding.OnboardingActivityBinding
 import com.health13.helph.utils.Animations
 
 
@@ -20,15 +20,15 @@ class OnboardingActivity : AppCompatActivity() {
     private lateinit var textSkip: TextView
     private lateinit var previousPage: ImageButton
 
-    private lateinit var binding: ActivityOnboardingExample1Binding
+    private lateinit var binding: OnboardingActivityBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityOnboardingExample1Binding.inflate(layoutInflater)
+        binding = OnboardingActivityBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
-        previousPage = binding.previousPage
+
         mViewPager = binding.viewPager
         textSkip = binding.textSkip
 
@@ -44,10 +44,6 @@ class OnboardingActivity : AppCompatActivity() {
             Animations.animateSlideLeft(this)
         }
 
-        previousPage.setOnClickListener {
-            mViewPager.setCurrentItem(getItem() - 1, true)
-
-        }
 
         val btnNextStep: Button = findViewById(R.id.btn_next_step)
 

@@ -6,43 +6,32 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
-    <ImageButton
-        android:id="@+id/previousPage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/white"
-        android:src="@drawable/back_arrow"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/previous" />
-
 
     <TextView
         android:id="@+id/text_skip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
         android:fontFamily="@font/segoe_ui"
         android:text="@string/skip"
         android:textColor="@color/accent"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/previousPage"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"/>
+        app:layout_constraintTop_toBottomOf="@+id/text_skip" />
 
 
     <com.google.android.material.tabs.TabLayout

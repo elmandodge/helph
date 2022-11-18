@@ -1,16 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Helph</string>
-    <string name="language_choice">Choose a language</string>
-    <string name="title_onboarding_1">Get access to medications and drugs</string>
-    <string name="description_onboarding_1">You are provided with all pharmacies which contain your drugs.</string>
+    <string name="title_onboarding_1">Avoir Access au medicaments et drogs</string>
+    <string name="description_onboarding_1">Vous pouvez ovoir access a tout les medicamant dont vous eves besion.</string>
 
-    <string name="title_onboarding_2">Easily navigation to pharmacies</string>
+    <string name="title_onboarding_2">Navigee facilement vers les pharmacies</string>
     <string name="description_onboarding_2">Navigation to specific nearby pharmacies made easy with google maps.</string>
 
     <string name="title_onboarding_3">Alarm reminder</string>
     <string name="description_onboarding_3">et notified when to take your drugs with alarm notifications.</string>
 
     <string name="start_text_advice">Get notified when to take your drugs with alarm notifications.</string>
+
+
+    <string name="language_choice">Choisesez une langue</string>
+
 
     <string name="start">start</string>
     <string name="skip">Skip</string>
@@ -19,7 +23,6 @@
     <string name="back">back</string>
     <string name="welcome_to_the_app">Welcome to the App</string>
     <string name="previous">previous</string>
-
 
 
 
