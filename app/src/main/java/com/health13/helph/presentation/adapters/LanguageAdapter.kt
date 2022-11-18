@@ -15,7 +15,7 @@ class LanguageAdapter(var context: Context, private var languageList: ArrayList<
 
     @SuppressLint("ViewHolder")
     override fun getView(position: Int, view: View?, viewGroup: ViewGroup?): View {
-        val language = languageList.get(position)
+        val language = languageList[position]
         val row = (context as Activity).layoutInflater.inflate(R.layout.language_item, viewGroup, false)
         val tvName = row.findViewById(R.id.tvName) as TextView
         tvName.text = language.name

@@ -61,7 +61,7 @@ class OnboardingFinishActivity : AppCompatActivity() {
     }
 
     fun setLocale(lang: String?) {
-        val myLocale = Locale(lang)
+        val myLocale = lang?.let { Locale(it) }
         val res = resources
         val conf = res.configuration
         conf.locale = myLocale
