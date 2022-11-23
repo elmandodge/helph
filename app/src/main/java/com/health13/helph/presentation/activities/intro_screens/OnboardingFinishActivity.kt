@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.health13.helph.data.models.Language
 import com.health13.helph.databinding.ActivityOnboardingFinishBinding
 import com.health13.helph.presentation.activities.MainActivity
+import com.health13.helph.presentation.activities.authentication.SignInActivity
 import com.health13.helph.presentation.adapters.LanguageAdapter
 import com.health13.helph.utils.Constants
 import java.util.*
@@ -37,7 +38,7 @@ class OnboardingFinishActivity : AppCompatActivity() {
             editor.putBoolean(Constants.SHOW_ON_BOARDING, true)
             editor.apply()
 
-            val intent = Intent(applicationContext, MainActivity::class.java)
+            val intent = Intent(applicationContext, SignInActivity::class.java)
             startActivity(intent)
         }
     }
