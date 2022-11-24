@@ -39,5 +39,8 @@ information)
 
 ## 📸 ScreenShots
 
-<img src="ss/13.png" width="400">
+<img src="screenshots/login.png" width="400">
+<img src="screenshots/signup1.png" width="400">
+<img src="screenshots/signup2.png" width="400">
+<img src="screenshots/signup3.png" width="400">
 
