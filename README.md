@@ -37,3 +37,7 @@ information)
 ## Application Architecture
 - Clean architecture will be used for this project
 
+## 📸 ScreenShots
+
+<img src="ss/13.png" width="400">
+
