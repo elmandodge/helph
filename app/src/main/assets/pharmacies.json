@@ -1,0 +1,39 @@
+{
+    "pharmacies": [
+        {
+            "id": 1,
+            "name": "Med's Pharmacy",
+            "town": "Yaounde",
+            "image": "",
+            "country": "Cameroon",
+            "phone":676521915,
+            "latitude": 12.434,
+            "longitude": 3.3445,
+            "rating": 4.3
+        },
+
+        {
+            "id": 1,
+            "name": "Pharmacy la Grace",
+            "town": "Bafoussam",
+            "image": "",
+            "country": "Cameroon",
+            "phone":676521915,
+            "latitude": 12.434,
+            "longitude": 3.3445,
+            "rating": 4.3
+        },
+
+        {
+            "id": 1,
+            "name": "Post Pharmacy",
+            "town": "Douala",
+            "image": "",
+            "country": "Cameroon",
+            "phone":676521915,
+            "latitude": 12.434,
+            "longitude": 3.3445,
+            "rating": 4.3
+        }
+    ]
+}

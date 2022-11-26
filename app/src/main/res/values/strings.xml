@@ -19,6 +19,8 @@
     <string name="back">back</string>
     <string name="welcome_to_the_app">Welcome to the App</string>
     <string name="previous">previous</string>
+    <string name="nearby_pharmacies">Nearby Pharmacies</string>
+    <string name="view_all">View All</string>
 
 
 </resources>

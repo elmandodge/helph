@@ -8,6 +8,7 @@ import android.os.Handler
 import android.os.Looper
 import com.health13.helph.databinding.ActivitySplashBinding
 import com.health13.helph.presentation.activities.MainActivity
+import com.health13.helph.presentation.activities.authentication.SignInActivity
 import com.health13.helph.utils.Constants
 
 class SplashActivity : AppCompatActivity() {
@@ -23,11 +24,11 @@ class SplashActivity : AppCompatActivity() {
 
             val preferences: SharedPreferences = getSharedPreferences(Constants.ON_BOARDING_PREF, MODE_PRIVATE)
             if(preferences.getBoolean(Constants.SHOW_ON_BOARDING, false)){
-                val intent = Intent(this,  MainActivity::class.java)
+                val intent = Intent(this,  SignInActivity::class.java)
                 startActivity(intent)
                 finish()
             }else{
-                val intent = Intent(this,  OnboardingActivity::class.java)
+                    val intent = Intent(this,  OnboardingActivity::class.java)
                 startActivity(intent)
                 finish()
             }

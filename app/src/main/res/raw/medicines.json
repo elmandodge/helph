@@ -1,0 +1,60 @@
+{
+    "medicines": [
+        {
+            "id": 1,
+            "name": "Paracetamol",
+            "description": "This is a drug for pain killing!",
+            "image": "",
+            "price": 12.6,
+            "stock": 234
+        },
+        {
+            "id": 1,
+            "name": "Paracetamol",
+            "description": "This is a drug for pain killing!",
+            "image": "",
+            "price": 12.6,
+            "stock": 234
+        },
+        {
+            "id": 1,
+            "name": "Paracetamol",
+            "description": "This is a drug for pain killing!",
+            "image": "",
+            "price": 12.6,
+            "stock": 234
+        },
+        {
+            "id": 1,
+            "name": "Paracetamol",
+            "description": "This is a drug for pain killing!",
+            "image": "",
+            "price": 12.6,
+            "stock": 234
+        },
+        {
+            "id": 1,
+            "name": "Paracetamol",
+            "description": "This is a drug for pain killing!",
+            "image": "",
+            "price": 12.6,
+            "stock": 234
+        },
+        {
+            "id": 1,
+            "name": "Paracetamol",
+            "description": "This is a drug for pain killing!",
+            "image": "",
+            "price": 12.6,
+            "stock": 234
+        },
+        {
+            "id": 1,
+            "name": "Paracetamol",
+            "description": "This is a drug for pain killing!",
+            "image": "",
+            "price": 12.6,
+            "stock": 234
+        }
+    ]
+}

@@ -7,9 +7,10 @@
     <color name="md_grey_900">#212121</color>
     <color name="colorPrimary">#6FB6F4</color>
 
+    <color name="text_color">#FFCED8D8</color>
     <color name="purple_200">#FFF8D9AA</color>
     <color name="purple_7002">#FF38D5CA</color>
-    <color name="purple_500">#FFFF91A4</color>
+    <color name="purple_500">#FF38D5CA</color>
     <color name="purple_700">#FF2C2C2B</color>
     <color name="teal_200">#FF2C2C2B</color>
     <color name="teal_700">#FF2C2C2B</color>
@@ -17,4 +18,6 @@
     <color name="black">#FF2C2C2B</color>
     <color name="accent_opauque">#4DF8D9AA</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF91A4</color>
+
 </resources>
