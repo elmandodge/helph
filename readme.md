@@ -6,13 +6,13 @@ This is the backend server for the helph application built with Node.js
 
 ### Healthcheck
 
-``` / ```
+``` / ```\
 Method : GET
 
 ### Register
 
-``` /register ```
-Method : POST
+``` /register ```\
+Method : POST\
 Schema :
 
 ```javascript
@@ -29,8 +29,8 @@ Schema :
 
 ### Login
 
-``` /login ```
-Method: POST
+``` /login ```\
+Method: POST\
 Schema :
 
 ```javascript
